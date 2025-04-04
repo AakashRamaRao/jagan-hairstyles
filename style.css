@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+    body {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      font-size: 16px; /* Adjust font size for mobile */
+    }
+  
+    header, footer {
+      padding: 10px;
+    }
+  
+    /* Make sure images are responsive */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .container {
+      padding: 10px;
+    }
+  
+    /* Adjust background image for mobile */
+    body {
+      background-image: url('Background.jpg');
+      background-size: cover; /* Ensure the background covers the screen */
+      background-position: center;
+    }
+  
+    /* Adjust any specific elements for smaller screens */
+    .navbar {
+      display: block; /* Stack navbar items for smaller screens */
+      text-align: center;
+    }
+  
+    .content {
+      margin: 0 10px;
+    }
+  }
+  
